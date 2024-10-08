@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 20px;
+  width: 220px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6; /* Light background for a cleaner look */
+  color: #333;
+}
+
+h1 {
+  font-size: 18px;
+  color: #0077b5; /* LinkedIn blue */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005582; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight pop effect */
+}
+
+button:disabled {
+  background-color: #a3a3a3; /* Disabled button */
+  cursor: not-allowed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
